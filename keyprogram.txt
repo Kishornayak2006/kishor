@@ -1,0 +1,64 @@
+Program 1: To create and add file to repository
+*git init
+*touch new.c
+*git add new.c
+*git add .
+*git commit -m "intial message"
+*git remote add origin (repo url)
+*git push origin main
+
+
+
+Program 2 : 
+*git branch 
+*git branch <new branch name>
+*git checkout <branch name>
+*git fetch origin (TO merge)
+*git merge <branch name> (TO merge)
+
+program 3:
+git branch
+git checkout branch name
+git stash save
+git stash pop
+
+program 4:
+git clone <repo url>
+git pull origin main
+git push origin main
+
+program 5: 
+git clone <repourl>
+git pull
+git push
+git sebase
+
+program 6:
+git clone<repo url>
+git pull
+git push
+git merge
+
+program 7:
+
+git tag v1.0
+git tag
+git push origin v1.0
+
+program 8:
+checkout (targeted branch
+git log
+git cherry-pick (commit hash)
+
+program 9: 
+git show (commit ID)
+
+program 10 :
+git log --author= (name) --since= (date) --after=(date)
+
+program 11:
+git log -2
+
+program 12:
+git revert (commit ID)
+
